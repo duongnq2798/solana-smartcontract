@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+sol_blog_1 = "HT1SvEi8Ku988kYZMe7MF85YtdmYWiZ6vS2A2ky8jDrH"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/rehanchoudhury/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

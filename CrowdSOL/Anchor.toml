@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+fundraise_platform = "4bXnBxEYTg5UB3qQHDtswBKQpYAyDqNC9E1qGQnQmK5e"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/bek/.config/solana/devnet.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

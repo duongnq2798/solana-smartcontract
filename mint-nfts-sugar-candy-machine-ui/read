@@ -1,0 +1,14 @@
+# sugar
+mint single and collection of nfts here.
+e.g (0.json-0.png, 1.json-1.png and more..)
+sugar launch command run
+then get candy machine program id.
+and minting uri link.
+
+# Candy meachine ui
+go to the candy machine repo and go to .env file and add candy machine program id here, change the network e.g mainnet or devnet
+node version 14
+yarn install
+yarm start
+
+Anyone can connect your wallet and buy the minting nfts here.

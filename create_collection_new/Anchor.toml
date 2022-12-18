@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+create_collection = "JdYddF4jrjzBrWtdy6LkVbPfLvx3FQgqTokjT1ov8C4"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/roni/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

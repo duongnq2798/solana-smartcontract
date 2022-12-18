@@ -1,0 +1,348 @@
+.lCharacter {
+    position: absolute;
+
+    right: calc(50% + 15px);
+    bottom: -25px;
+    height: 100%;
+    z-index: 10;
+}
+
+.rCharacter {
+    position: absolute;
+
+    left: calc(50% + 15px);
+    bottom: -25px;
+    height: 100%;
+    z-index: 10;
+}
+
+.cLightning {
+    margin: auto;
+    height: 100%;
+    z-index: 20;
+}
+
+.lLightning {
+    position: absolute;
+    z-index: 20;
+    height: calc(100% + 15px);
+    top: -15px;
+    right: calc(50% + 135px);
+}
+
+.rLightning {
+    position: absolute;
+    z-index: 20;
+    height: calc(100% + 30px);
+    top: -15px;
+    left: calc(50% + 135px);
+}
+
+.gradientBG {
+    position: absolute;
+    z-index: 15;
+    width: 610px;
+    height: 100%;
+    top: 0;
+    right: calc(50% - 307px);
+    clip-path: polygon(0 0, 100% 0, calc(100% - 120px) 100%, 118px 100%);
+    background: radial-gradient(50% 50% at 50% 50%, #15C7FF 0%, #0092C0 31.77%, #01003C 100%);
+}
+
+.kkText {
+    position: absolute;
+    z-index: 30;
+    top: calc(50% - 160px);
+    right: calc(50% - 160px);
+    width: 320px;
+}
+
+.kkText2 {
+    position: absolute;
+    z-index: 30;
+    top: calc(50% - 250px);
+    right: calc(50% - 160px);
+    width: 320px;
+}
+
+.wltBtnWrapper {
+    position: absolute;
+    z-index: 50;
+    bottom: 90px;
+    right: calc(50% - 180px);
+    width: 360px;
+    height: 70px;
+}
+
+.landingBtn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 70px;
+    background: linear-gradient(180deg, #FFE8AD 4.69%, #FFB800 26.04%, #FF9040 78.65%, #E464A2 100%);
+    box-shadow: 0px 12px 2px rgba(0, 0, 0, 0.45);
+    border-radius: 14px;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    text-align: center;
+    color: #58143D;
+    cursor: pointer;
+}
+
+.landingBtn:active {
+    box-shadow: none;
+}
+
+.enteryFeeLabel {
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 59px;
+    text-align: center;
+    color: #69F0AE;
+    position: absolute;
+    top: 80px;
+    right: calc(50% - 48px);
+}
+
+.starWrapper {
+    margin: 25px 0 50px;
+}
+
+.starIcon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin: auto;
+}
+
+.loading {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin: 0;
+}
+
+.prePlayWrapper {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.prePlayWrapper>div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userNftsSelectPanel {
+    position: relative;
+    width: calc(100% - 64px);
+    margin: 50px 32px;
+}
+
+.selectNftLeftArrow {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 25px);
+    cursor: pointer;
+}
+
+.selectNftRightArrow {
+    position: absolute;
+    right: 0;
+    top: calc(50% - 25px);
+    cursor: pointer;
+}
+
+.userNFTsImgWrapper {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.imgAvatar {
+    width: 150px;
+    height: 150px;
+}
+
+.bnnPanel {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+.nftNameLabel {
+    margin: 12px auto 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #323232;
+}
+
+
+.buyBnnItemWrapper {
+    width: 170px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.bottomBtn {
+    margin: 0 55px;
+    background: #919191;
+    border-radius: 8px;
+    height: 52px;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    width: calc(100% - 110px);
+    color: #323232;
+    cursor: pointer;
+}
+
+.dialogSubTitle {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #323232;
+    margin: 0;
+}
+
+.bnnIcon {
+    display: flex;
+    width: 109px;
+    height: 101px;
+    margin: auto;
+}
+
+.buyBnnSubDescription {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #323232;
+    margin: 0 0 10px;
+}
+
+.bnnPriceLabel {
+    font-weight: 700;
+}
+
+.startBtnWrapper {
+    width: 100%;
+    margin: 30px auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.startBtn {
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000
+}
+
+.showSelectAvatarDialog>div {
+    width: 100%;
+}
+
+.nftsSelectDialogContainer {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 0.8fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.userNftsSelectCard {
+    width: 100%;
+    cursor: pointer;
+}
+
+.userNFTsImgSelectDialogWrapper {
+    aspect-ratio: 1;
+    width: 100%;
+
+}
+
+.imgSelectAvatar {
+    aspect-ratio: 1;
+    width: 100%;
+}
+
+.userNFTInfoIdx {
+    border: 4px solid #919191;
+    border-radius: 10px;
+}
+
+.nftSelectLabel {
+    text-align: center;
+}
+
+.bnnItemSelected {
+    border-width: 5px;
+}
+
+.claimGameRewardDialogTitle {
+    width: 100%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+    color: #323232;
+}
+
+.claimGameRewardDialogContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.claimGameRewardImg {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 30px;
+}
+
+.claimGameRewardBtn {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}

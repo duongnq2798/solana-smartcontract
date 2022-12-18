@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "programs/cookie-cutter",
+    "programs/es-token-metadata"
+]

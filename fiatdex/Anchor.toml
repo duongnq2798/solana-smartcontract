@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+fiatdex = "5f3Q4hsMW3UboR9nhwYvDWjLUVJpnNm545hekKe1Gs3W"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/antoineherzog/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

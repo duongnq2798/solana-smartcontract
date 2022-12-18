@@ -1,0 +1,16 @@
+[programs.localnet]
+lockup = "DCrDvbtuqxFiAgTz7JrDy5c1PiuZkgfphyGUTpq2L2eW"
+registry = "E9a8yDKJMRDGS7SNJpJGF9mJAK1K2knvqHcWriBK6JRZ"
+registry_realizor = "6YHjQ62tRTRho5tkFdtMX9rQod2RkwZMz2VfSiGwK9v7"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+# cluster = "localnet"
+# cluster = "https://rpc-mainnet-fork.dappio.xyz"
+cluster = "https://rpc-mainnet-fork.epochs.studio"
+wallet = "~/.config/solana/0.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

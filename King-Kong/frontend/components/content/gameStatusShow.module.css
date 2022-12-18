@@ -1,0 +1,451 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.gameMark {
+    position: absolute;
+    right: calc(50% - 70px);
+    top: 30px;
+    width: 140px;
+
+}
+
+.prizeBox {
+    position: absolute;
+    right: calc(50% - 80px);
+    top: calc(50% - 80px);
+    width: 160px;
+    height: 160px;
+    z-index: 10;
+}
+
+.leftPanel {
+    position: absolute;
+    height: 100%;
+    right: 50%;
+    top: 0;
+}
+
+.rightPanel {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    top: 0;
+}
+
+.leftR4Line {
+    height: 4px;
+    width: 10px;
+    position: absolute;
+    right: calc(50% + 80px);
+    top: calc(50% - 2px);
+    background: rgba(13, 34, 44, 0.6);
+    ;
+}
+
+.lhsLine {
+    position: absolute;
+    top: calc(50% - 250px);
+    right: calc(50% + 80px);
+    height: 500px;
+}
+
+.rhsLine {
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% + 80px);
+    height: 500px;
+}
+
+.r4Player {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    background: linear-gradient(0deg, rgba(173, 173, 173, 0.2), rgba(173, 173, 173, 0.2)), rgba(0, 0, 0, 0.3);
+    border: 6px solid #CCCCCC;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r4Player1 {
+    top: calc(50% - 47px);
+    right: calc(50% + 90px);
+}
+
+.r4Player2 {
+    top: calc(50% - 47px);
+    left: calc(50% + 90px);
+}
+
+.r3Player {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(0deg, rgba(173, 173, 173, 0.2), rgba(173, 173, 173, 0.2)), rgba(0, 0, 0, 0.3);
+    border: 4px solid #CCCCCC;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r3PlayerL1 {
+    top: calc(50% - 173px);
+    right: calc(50% + 185px);
+}
+
+.r3PlayerR1 {
+    top: calc(50% - 173px);
+    left: calc(50% + 185px);
+}
+
+.r3PlayerL2 {
+    top: calc(50% + 108px);
+    right: calc(50% + 185px);
+}
+
+.r3PlayerR2 {
+    top: calc(50% + 108px);
+    left: calc(50% + 185px);
+}
+
+.r2PlayerL1 {
+    top: calc(50% - 245px);
+    right: calc(50% + 291px);
+}
+
+.r2PlayerR1 {
+    top: calc(50% - 245px);
+    left: calc(50% + 291px);
+}
+
+.r2PlayerL2 {
+    top: calc(50% - 105px);
+    right: calc(50% + 291px);
+}
+
+.r2PlayerR2 {
+    top: calc(50% - 105px);
+    left: calc(50% + 291px);
+}
+
+.r2PlayerL3 {
+    top: calc(50% + 35px);
+    right: calc(50% + 291px);
+}
+
+.r2PlayerR3 {
+    top: calc(50% + 35px);
+    left: calc(50% + 291px);
+}
+
+.r2PlayerL4 {
+    top: calc(50% + 175px);
+    right: calc(50% + 291px);
+}
+
+.r2PlayerR4 {
+    top: calc(50% + 175px);
+    left: calc(50% + 291px);
+}
+
+.r4LockIcon {
+    width: 44px;
+}
+
+.r3LockIcon {
+    width: 24px;
+}
+
+.r1Avatar {
+    width: 100%;
+    height: 100%;
+}
+
+.r1RealAvatar {
+    width: 100%;
+    height: 100%;
+    border: 4px solid white;
+    border-radius: 18px;
+}
+
+.r1UnrealAvatarWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.r1UnrealAvatarWrapper>* {
+    position: absolute;
+}
+
+.r1UnrealAvatar {
+    width: 100%;
+    height: 100%;
+    border: 4px solid white;
+    border-radius: 18px;
+    opacity: 0.5;
+}
+
+.r1Player {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.r1PlayerL1 {
+    top: calc(50% - 285px);
+    right: calc(50% + 425px);
+}
+
+.r1PlayerL2 {
+    top: calc(50% - 215px);
+    right: calc(50% + 425px);
+}
+
+.r1PlayerL3 {
+    top: calc(50% - 145px);
+    right: calc(50% + 395px);
+}
+
+.r1PlayerL4 {
+    top: calc(50% - 75px);
+    right: calc(50% + 395px);
+}
+
+.r1PlayerL5 {
+    top: calc(50% + 5px);
+    right: calc(50% + 425px);
+}
+
+.r1PlayerL6 {
+    top: calc(50% + 75px);
+    right: calc(50% + 425px);
+}
+
+.r1PlayerL7 {
+    top: calc(50% + 145px);
+    right: calc(50% + 395px);
+}
+
+.r1PlayerL8 {
+    top: calc(50% + 215px);
+    right: calc(50% + 395px);
+}
+
+.r1PlayerR1 {
+    top: calc(50% - 285px);
+    left: calc(50% + 425px);
+}
+
+.r1PlayerR2 {
+    top: calc(50% - 215px);
+    left: calc(50% + 425px);
+}
+
+.r1PlayerR3 {
+    top: calc(50% - 145px);
+    left: calc(50% + 395px);
+}
+
+.r1PlayerR4 {
+    top: calc(50% - 75px);
+    left: calc(50% + 395px);
+}
+
+.r1PlayerR5 {
+    top: calc(50% + 5px);
+    left: calc(50% + 425px);
+}
+
+.r1PlayerR6 {
+    top: calc(50% + 75px);
+    left: calc(50% + 425px);
+}
+
+.r1PlayerR7 {
+    top: calc(50% + 145px);
+    left: calc(50% + 395px);
+}
+
+.r1PlayerR8 {
+    top: calc(50% + 215px);
+    left: calc(50% + 395px);
+}
+
+.crossIcon {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.r2RealAvatar {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 4px solid white;
+    border-radius: 18px;
+}
+
+.r4RealAvatar {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    border: 4px solid white;
+    border-radius: 18px;
+}
+
+.r2UnrealAvatarWrapper {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.r2UnrealAvatarWrapper>* {
+    position: absolute;
+}
+
+.crossIconR2 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+.crossIconR4 {
+    width: 94px;
+    height: 94px;
+    position: absolute;
+    padding: 10px;
+}
+
+.r4crossIcon {
+    width: 100%;
+    height: 100%;
+}
+
+.r2UnrealAvatar {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 4px solid white;
+    border-radius: 18px;
+    opacity: 0.5;
+}
+
+.r4UnrealAvatar {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    border: 4px solid white;
+    border-radius: 18px;
+    opacity: 0.5;
+}
+
+.waitingPanel {
+    position: absolute;
+    bottom: 20px;
+    right: calc(50% - 225px);
+    background: rgba(28, 36, 45, 0.82);
+    box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    min-width: 450px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.countdownPanel {
+    min-width: 340px;
+    right: calc(50% - 170px)
+}
+
+.waitingText1 {
+    font-family: 'Lilita One';
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    /* identical to box height */
+
+    text-align: center;
+
+    background: linear-gradient(180deg, #FFF0BB 0%, #EFB660 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.waitingText2 {
+    font-family: 'Lilita One';
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    background: linear-gradient(180deg, #FFC700 0%, #FF9900 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.countdown {
+    margin: 0;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    /* line-height: 110px; */
+    text-align: center;
+    background: linear-gradient(180deg, #FFF0BB 0%, #EFB660 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.startingRoundText {
+    margin: 0;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+
+    text-align: center;
+
+    background: linear-gradient(180deg, #00FF82 0%, #00A52E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.onlinePlayersText {
+    margin: 0;
+    font-family: 'Lilita One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    background: linear-gradient(180deg, #FFF0BB 0%, #EFB660 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}

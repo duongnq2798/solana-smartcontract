@@ -1,0 +1,16 @@
+[features]
+seeds = false
+
+[programs.devnet]
+workspace = "8ZThaLXF5KaNZn1jGaHuBFzhSHqv4VNRwmgBSiGESpU6"
+staking = "7bKzGRwzjfeDNafZh7iQZziHRznbXRLHqq27VVzs9fHa"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/jr/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

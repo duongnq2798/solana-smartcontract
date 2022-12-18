@@ -1,0 +1,32 @@
+[features]
+seeds = false
+[programs.localnet]
+es_token_metadata = "4fhHqbNqYXmGVgYtff1y75BGczADSq3vB9nNnzfDRNwi"
+
+[programs.devnet]
+es_token_metadata = "4fhHqbNqYXmGVgYtff1y75BGczADSq3vB9nNnzfDRNwi"
+gay_dungeon = "Bz4repUbACRtNKsrTZUhgfNzXKbsu6JcLzawHFqoSz3X"
+cookie_cutter = "5ZCWy1KnjskpikJGTrbRVNLw6pyRmS1GjbQfqwwqgG5X"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+
+deploy-cookie = "anchor deploy -p cookie-cutter"
+upgrade-idl-cookie = "anchor idl upgrade --filepath target/idl/cookie_cutter.json 5ZCWy1KnjskpikJGTrbRVNLw6pyRmS1GjbQfqwwqgG5X"
+get-idl-cookie = "anchor idl fetch 5ZCWy1KnjskpikJGTrbRVNLw6pyRmS1GjbQfqwwqgG5X"
+
+
+
+build-es = "anchor build -p es_token_metadata"
+deploy-es = "anchor deploy -p es_token_metadata"
+test-es = "anchor run build-es && anchor run deploy-es && yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/es-token-metadata/es-token-metadata.ts"
+get-idl-es = "anchor idl fetch 4fhHqbNqYXmGVgYtff1y75BGczADSq3vB9nNnzfDRNwi"
+

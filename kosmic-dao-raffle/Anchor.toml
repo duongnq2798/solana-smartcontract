@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+kosmic_dao_raffle = "6hQVmZSoUjWdBniVExRorWJxCDFmJwznXis2HSopBdu6"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "./id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

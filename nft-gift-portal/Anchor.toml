@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+nft_gift_portal = "9J8cC4N5a9KhguUEBoJrBJpbg6FLqbMzuUJiXnBqc96b"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/servatj/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"

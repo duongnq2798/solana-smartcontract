@@ -1,0 +1,27 @@
+[package]
+name = "cookie-cutter"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "cookie_cutter"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[profile.release]
+overflow-checks = true
+
+[dependencies]
+anchor-lang = "0.24.2"
+es-token-metadata = {path="../es-token-metadata", features = ["cpi"]}
+anchor-spl = "~0.24.2"
+spl-token = { version="~3.2.0", features = [ "no-entrypoint" ] }
+solana-program = "~1.9.5"
+spl-associated-token-account = {version = "~1.0.3", features = ["no-entrypoint"]}

@@ -1,0 +1,3 @@
+[submodule "app"]
+	path = app
+	url = git@github.com:yasushisakai/lab-lunch-dao-app.git

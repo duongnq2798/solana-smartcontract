@@ -1,0 +1,49 @@
+{
+    "name": "6",
+    "symbol": "NJA",
+    "description": "Official Ninja",
+    "image": "ipfs://QmVXVMJgyfAkErneZGnDUqzC6hGFctXJVrRETyaqRc3LUK/6.png",
+    "edition": 1,
+    "date": 1632433142769,
+    "attributes": [
+        {
+            "trait_type": "eyes",
+            "value": "red"
+        },
+        {
+            "trait_type": "sheen",
+            "value": "golden"
+        },
+        {
+            "trait_type": "strength",
+            "value": "4"
+        },
+        {
+            "trait_type": "defense",
+            "value": "16"
+        },
+        {
+            "trait_type": "luck",
+            "value": "18"
+        }
+    ],
+    "collection": {
+        "name": "Ninja Solana family season 1",
+        "family": "Ninjas"
+    },
+    "properties": {
+        "files": [
+            {
+                "uri": "image.png",
+                "type": "image/png"
+            }
+        ],
+        "category": "image",
+        "creators": [
+            {
+                "address": "ASpGfTcm8cyG7pmxAEF65nxoaZYmJkdzEwZ2zy4CnmsL",
+                "share": 100
+            }
+        ]
+    }
+}

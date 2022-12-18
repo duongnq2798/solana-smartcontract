@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Fareast Italian",
+        "url": "https://www.google.com",
+        "menu": [
+            {
+                "name": "Straberry Crepe",
+                "footPrint": 1.2,
+                "cost": 9
+            },
+            {
+                "name": "Japanese Napolitan",
+                "footPrint": 2.2,
+                "cost": 12
+            },
+            {
+                "name": "Hanoi Risotto",
+                "footPrint": 2.1,
+                "cost": 15
+            },
+            {
+                "name": "Chinese Beef Lavioli",
+                "footPrint": 3.8,
+                "cost": 18
+            }
+        ]
+    },
+    {
+        "name": "Peruvian Seafood 'Nikkei'",
+        "url": "https://www.google.com",
+        "menu": [
+            {
+                "name": "Halapeno Mackerel",
+                "footPrint": 1.2,
+                "cost": 12
+            },
+            {
+                "name": "Ohba Ceviche",
+                "footPrint": 2.2,
+                "cost": 18
+            },
+            {
+                "name": "Eggplant Chips",
+                "footPrint": 1.0,
+                "cost": 11
+            },
+            {
+                "name": "Lobster steak",
+                "footPrint": 2.8,
+                "cost": 28
+            }
+        ]
+    },   
+    {
+        "name": "Backwards Beef",
+        "url": "https://www.google.com",
+        "menu": [
+            {
+                "name": "Ribeye Steak",
+                "footPrint": 5.9,
+                "cost": 30
+            },
+            {
+                "name": "Creamed Spinach",
+                "footPrint": 2.7,
+                "cost": 20
+            },
+            {
+                "name": "Cheeese Burger",
+                "footPrint": 4.0,
+                "cost": 25
+            },
+            {
+                "name": "Vanilla Icecream",
+                "footPrint": 3.1,
+                "cost": 18
+            }
+        ]
+    }
+]

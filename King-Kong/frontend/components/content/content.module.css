@@ -1,0 +1,16 @@
+.container {
+    /* background: url('/img/BG.png') no-repeat;
+    background-size: cover;     */
+    width: 100%;
+    height: calc(100vh - 180px);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.bgImg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}

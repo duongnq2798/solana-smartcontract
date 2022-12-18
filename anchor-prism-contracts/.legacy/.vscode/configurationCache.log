@@ -1,0 +1,1 @@
+{"buildTargets":["\"@metaplex/js\"","build","default","deploy","prettier","test"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
